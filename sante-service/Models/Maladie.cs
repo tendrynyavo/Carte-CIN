@@ -1,7 +1,9 @@
+using MySqlConnector;
+
 namespace sante_service.Models;
 
 public class Maladie {
-    
+
     public string Id { get; set; }
 
     public string Nom { get; set; }
@@ -15,6 +17,11 @@ public class Maladie {
 
     public Maladie(string id, string nom, DateTime date) : this(id, nom) {
         Date = date;
+    }
+
+    public static Maladie[] GetMaladie() {
+        MySqlConnection connection = Connection.GetConnection();
+        return null;
     }
 
 }

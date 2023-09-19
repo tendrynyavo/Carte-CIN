@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wjrt4a/JY46e/CrTWvqrzU24VK0tiHwEu+o3nFRq5w07SBrP3lYddL5ziXz2bu0nRS1JCvMGl4dnTZMpOme7CQ==",
+  "dgSpecHash": "nLMvPAEGBR5v6wWoxy2ijTIXfK75tZidok6ecs6eZJEsTjSQLFYJpTb7T9R6XT/mPYLSd1K+pT7vsXzD4Vkc4w==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj",
+  "projectFilePath": "d:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tendr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\tendr\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
@@ -19,6 +19,7 @@
     "C:\\Users\\tendr\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\tendr\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\tendr\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\tendr\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512",
     "C:\\Users\\tendr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\tendr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\tendr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

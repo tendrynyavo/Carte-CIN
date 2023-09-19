@@ -34,3 +34,4 @@ D:\Project\Carte-CIN\sante-service\obj\Debug\net7.0\refint\sante-service.dll
 D:\Project\Carte-CIN\sante-service\obj\Debug\net7.0\sante-service.pdb
 D:\Project\Carte-CIN\sante-service\obj\Debug\net7.0\sante-service.genruntimeconfig.cache
 D:\Project\Carte-CIN\sante-service\obj\Debug\net7.0\ref\sante-service.dll
+D:\Project\Carte-CIN\sante-service\bin\Debug\net7.0\MySqlConnector.dll
