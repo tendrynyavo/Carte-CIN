@@ -1,0 +1,13 @@
+CREATE TABLE personne (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(50) NOT NULL,
+    prenom VARCHAR(50) NOT NULL,
+    num_cin VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE maladie (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(50) NOT NULL,
+    cin VARCHAR(20) REFERENCES personne(num_cin),
+    date DATE NOT NULL
+);
