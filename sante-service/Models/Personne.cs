@@ -55,7 +55,7 @@ public class Personne {
         return personne;
     }
 
-    public static bool verifier(string cin) {
+    public static bool Verifier(string cin) {
         bool check = false;
         using (var connection = Connection.GetConnection()) {
             check = GetByCIN(connection, cin) != null;

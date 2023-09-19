@@ -22,7 +22,7 @@ public class SanteController : ControllerBase {
     [HttpGet]
     [Route("{id}")]
     public bool Verifier(string id) {
-        return Personne.verifier(id);
+        return Personne.Verifier(id);
     }
 
 }
