@@ -10,6 +10,8 @@ public class Maladie {
 
     public DateTime Date { get; set; }
 
+    public Personne Personne { set; get; }
+
     public Maladie(int id, string nom) {
         Id = id;
         Nom = nom;
@@ -19,18 +21,14 @@ public class Maladie {
         Date = date;
     }
 
-    public static Maladie[] GetMaladie() {
-        List<Maladie> maladies = new List<Maladie>();
+    public static Maladie[] GetMaladie(string cin) {
+        Maladie[] maladies = new Maladie[0];
         using (var connection = Connection.GetConnection()) {
-            using (var cmd = new MySqlCommand("SELECT id, nom, date FROM maladie", connection)) {
-                using (var reader = cmd.ExecuteReader()) {
-                    while(reader.Read()) {
-                        maladies.Add(new Maladie(reader.GetInt32(0), reader.GetString(1), reader.GetDateTime(2)));
-                    }
-                }
-            }
+            Personne? personne = Personne.GetByCIN(connection, cin);
+            if (personne == null) throw new Exception("Numero de CIN n'existe pas");
+            maladies = personne.GetMaladie(connection);
         }
-        return maladies.ToArray();
+        return maladies;
     }
 
 }

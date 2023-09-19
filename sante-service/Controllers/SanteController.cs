@@ -8,8 +8,21 @@ namespace sante_service.Controllers;
 public class SanteController : ControllerBase {
 
     [HttpGet]
-    public Maladie[] GetMaladie() {
-        return Maladie.GetMaladie();
+    [Route("{id}")]
+    public IEnumerable<Maladie> GetMaladie(string id) {
+        return Maladie.GetMaladie(id);
+    }
+    
+    [HttpGet]
+    [Route("{id}")]
+    public Personne? GetPersonne(string id) {
+        return Personne.GetByCIN(id);
+    }
+    
+    [HttpGet]
+    [Route("{id}")]
+    public bool Verifier(string id) {
+        return Personne.verifier(id);
     }
 
 }
