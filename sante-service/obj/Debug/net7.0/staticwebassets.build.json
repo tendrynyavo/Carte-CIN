@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "j5Ga9s/MmPzWZSJ3m1YAZUPOZ3rm8+c89wlwlQJgQro=",
+  "Source": "sante-service",
+  "BasePath": "_content/sante-service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
