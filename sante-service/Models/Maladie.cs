@@ -1,5 +1,3 @@
-using MySqlConnector;
-
 namespace sante_service.Models;
 
 public class Maladie {

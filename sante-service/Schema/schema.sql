@@ -9,5 +9,6 @@ CREATE TABLE maladie (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
     nom VARCHAR(50) NOT NULL,
     cin VARCHAR(20) REFERENCES personne(num_cin),
-    date DATE NOT NULL
+    date DATE NOT NULL,
+    id_hopilale VARCHAR(20)
 );
