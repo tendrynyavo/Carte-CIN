@@ -1,23 +1,18 @@
 package model;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import com.json.JsonObject;
+import connection.BddObject;
 
-public class Personne {
-    
-    String id;
+public class Personne extends BddObject {
+
     String nom;
     String prenom;
     String cin;
 
     public String getCin() {
         return cin;
-    }
-
-    public String getId() {
-        return id;
     }
 
     public String getNom() {
@@ -30,10 +25,6 @@ public class Personne {
 
     public void setCin(String cin) {
         this.cin = cin;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public void setNom(String nom) {
@@ -55,6 +46,11 @@ public class Personne {
 
     public Terrain[] getTerrains() throws Exception {
         return (Terrain[]) new Terrain().setPersonne(this).findAll(null);
+    }
+
+    public Personne() throws Exception {
+        super();
+        this.setPrimaryKeyName("cin");
     }
 
 }

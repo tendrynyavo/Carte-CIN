@@ -1,0 +1,10 @@
+CREATE TABLE terrain (
+    id SERIAL PRIMARY KEY,
+    adresse VARCHAR(10),
+    bornee BOOLEAN,
+    longueur DOUBLE PRECISION NOT NULL DEFAULT 0,
+    largeur DOUBLE PRECISION NOT NULL DEFAULT 0,
+    longitude VARCHAR(20) NOT NULL DEFAULT 0,
+    latidute VARCHAR(20) NOT NULL DEFAULT 0,
+    cin VARCHAR(50) NOT NULL
+);
