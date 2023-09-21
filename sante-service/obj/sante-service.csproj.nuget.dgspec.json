@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj": {}
+    "d:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj": {
+    "d:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj",
+        "projectUniqueName": "d:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj",
         "projectName": "sante-service",
-        "projectPath": "D:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj",
+        "projectPath": "d:\\Project\\Carte-CIN\\sante-service\\sante-service.csproj",
         "packagesPath": "C:\\Users\\tendr\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Carte-CIN\\sante-service\\obj\\",
+        "outputPath": "d:\\Project\\Carte-CIN\\sante-service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tendr\\AppData\\Roaming\\NuGet\\NuGet.Config"
